@@ -1,0 +1,25 @@
+def basic_calculator():
+
+    user = int(input("1 for add, 2 for sub, 3 for multi, 4 for div=> "))
+
+    if 5 > user:
+
+     a = int(input("enter your first number=> "))
+     b = int(input("enter  your second number=> "))
+    if user == 1:
+        add = (a + b)
+        print("add : {} + {} = {}".format(a, b, add))
+    elif user == 2:
+        sub = (a - b)
+        print("sub : {} - {} = {}".format(a, b, sub))
+    elif user == 3:
+        multi = (a * b)
+        print("multi : {} * {} = {}".format(a, b, multi))
+    elif user == 4:
+        div = (a / b)
+        print("div : {} / {} = {}".format(a, b, div))
+    else:
+        print("Error")
+
+
+basic_calculator()
